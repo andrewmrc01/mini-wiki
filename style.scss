@@ -1,0 +1,25 @@
+// seletor{
+//  propriedade: valor;
+//  }
+// primeira coisa a ser feita no arquivo de style é o reset
+// * seletor universal/global
+// dentro *{} só colocamos o reset
+*{
+    margin: 0; // espaço de fora da tag
+    padding: 0; // espaço de dentro da tag
+    box-sizing: border-box; // é utilizado para alterar o calculo de largura
+}
+
+// body corpo do site
+body{
+    background-color: bisque; // cor de fundo
+}
+
+img{
+    width: 200px; // largura
+    border-radius: 20px;
+}
+
+h1{
+    color: rgb(75, 49, 10);
+}
